@@ -7,7 +7,7 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 
 
-@SuppressWarnings("serial")
+
 @NoArgsConstructor
 @Data
 @Accessors(chain = true )
