@@ -19,7 +19,6 @@ public class DeptController_Consumer
     @Autowired
     private DeptClientService service;
 
-
     @RequestMapping(value = "/consumer/dept/add")
     public Object add(Dept dept)
     {
